@@ -1,4 +1,4 @@
-# Pythonマクロ編集ツールAPSOを導入する
+# Calc Pythonマクロ編集ツールAPSOを導入する
 
 　拡張機能をインストールする。
 
@@ -6,7 +6,7 @@
 
 # 成果物
 
-* [github](https://github.com/ytyaru/LibreOffice.Calc.Usage.20201006084708)
+* [github](https://github.com/ytyaru/LibreOffice.Calc.Extension.APSO.20201010155212)
 
 # 手順
 
@@ -72,6 +72,7 @@ def SUM_PY(*args):
 ![B](https://github.com/ytyaru/LibreOffice.Calc.Extension.APSO.20201010155212/blob/master/doc/B.png?raw=true)
 ![C](https://github.com/ytyaru/LibreOffice.Calc.Extension.APSO.20201010155212/blob/master/doc/C.png?raw=true)
 ![D](https://github.com/ytyaru/LibreOffice.Calc.Extension.APSO.20201010155212/blob/master/doc/D.png?raw=true)
+![E](https://github.com/ytyaru/LibreOffice.Calc.Extension.APSO.20201010155212/blob/master/doc/E.png?raw=true)
 
 ## 5. 使ってみる（失敗）
 
@@ -105,15 +106,16 @@ Type "help", "copyright", "credits" or "license" for more information.
 
 　成功した。
 
-![E](https://github.com/ytyaru/LibreOffice.Calc.Extension.APSO.20201010155212/blob/master/doc/E.png?raw=true)
 ![F](https://github.com/ytyaru/LibreOffice.Calc.Extension.APSO.20201010155212/blob/master/doc/F.png?raw=true)
 
-# 7. Pythonでユーザ定義関数を作れる？→作れない
+# 7. Pythonでユーザ定義関数を作れる？
 
 * [マクロで代用する](https://www.it-swarm-ja.tech/ja/python/libreoffice-calc%E3%82%BB%E3%83%AB%E3%81%A7%E6%95%B0%E5%BC%8F%E3%81%A8%E3%81%97%E3%81%A6python%E9%96%A2%E6%95%B0%E3%82%92%E4%BD%BF%E7%94%A8%E3%81%99%E3%82%8B/944428044/)
 * [拡張機能で実現する](https://stackoverflow.com/questions/50785510/define-a-libreoffice-calc-custom-function-in-python)
 
 　どうもBASICと同様の方法で簡単に作ることはできなさそう。
+
+　拡張機能でなら頑張ればできるのかもしれない。大変そうなのでやらない。
 
 # 所感
 
@@ -125,8 +127,10 @@ Type "help", "copyright", "credits" or "license" for more information.
 * [Raspbierry pi](https://ja.wikipedia.org/wiki/Raspberry_Pi) 4 Model B
 * [Raspberry Pi OS](https://ja.wikipedia.org/wiki/Raspbian) buster 10.0 2020-08-20 [※](http://ytyaru.hatenablog.com/entry/2020/10/06/111111)
 * [bash](https://ja.wikipedia.org/wiki/Bash) 5.0.3(1)-release
+* LibreOffice 6.1.5.2 [※](http://ytyaru.hatenablog.com/entry/2022/07/16/000000) [※](http://ytyaru.hatenablog.com/entry/2022/08/09/000000) [Help](http://ytyaru.hatenablog.com/entry/2022/08/16/000000)
 
 ```sh
 $ uname -a
 Linux raspberrypi 5.4.51-v7l+ #1333 SMP Mon Aug 10 16:51:40 BST 2020 armv7l GNU/Linux
 ```
+
